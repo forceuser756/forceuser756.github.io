@@ -3,14 +3,19 @@ html,body{
     width: 100%;
 }
 
+h1{
+  color: grey;
+  font-size: 25px;
+  font-family: sans-serif;
+}
 #container {
     margin: auto;
 }
 
 #poke-container {
     margin: auto;
-    width: 90%;
-    padding: 10px;
+    width: 100%;
+    padding: 15px;
 }
 
 #header-container {
