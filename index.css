@@ -1,10 +1,11 @@
 html,body{
     height: 100%;
     width: 100%;
+    background-color: lightblue;
 }
 
 h1{
-  color: grey;
+  color: lightgrey;
   font-size: 25px;
   font-family: sans-serif;
 }
@@ -14,8 +15,8 @@ h1{
 
 #poke-container {
     margin: auto;
-    width: 100%;
-    padding: 15px;
+    width: 90%;
+    padding: 10px;
 }
 
 #header-container {
