@@ -1,4 +1,4 @@
-console.log('You have connected...')
+console.log('You have connected!')
 
 document.addEventListener("DOMContentLoaded", () =>{
 
@@ -32,8 +32,7 @@ function fetchKantoPokemon(){
 }
 
 function fetchPokemonData(pokemon){
-    let url = pokemon.url // <--- this is saving the pokemon url to a variable to use in the fetch.
-                                //Example: https://pokeapi.co/api/v2/pokemon/1/"
+    let url = pokemon.url
     fetch(url)
     .then(response => response.json())
     .then(function(pokeData){
